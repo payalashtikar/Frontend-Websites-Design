@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+body,
+html {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#nav {
+    position: fixed;
+    width: 100%;
+    padding: 12px 15px;
+    display: flex;
+    justify-content: flex-end;
+    height: 10vh;
+}
+
+#nav>i {
+    font-size: 40px;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+#page1 {
+    background-image: url('./assessts/cover.jpg');
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 12%;
+}
+
+#page1 h1 {
+    font-size: 5vw;
+    margin: 20px 0px;
+}
+
+#page1>button {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#page2 {
+    width: 100%;
+    min-height: 25vh;
+    padding: 5% 8%;
+    line-height: 1.5;
+}
+
+#page2>div>p {
+    padding: 30px;
+    font-size: 20px;
+}
+
+#page2>div>p>a {
+    color: blue;
+    text-decoration: none;
+}
+
+#page2-inner2 {
+    width: 100%;
+    text-align: center;
+}
+
+#page2-inner2>h1 {
+    font-weight: 900;
+    background-color: rgb(240, 192, 104);
+    padding: 50px 30px;
+    color: white;
+    font-size: 3vw;
+}
+
+#page3 {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#page3-in1 {
+    padding: 2% 7%;
+}
+
+#page3-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.page3-inner-inner {
+    width: 370px;
+    margin: 10px;
+    background-color: rgb(240, 192, 104);
+    line-height: 1.5;
+    flex-wrap: wrap;
+}
+
+.page3-inner-inner>img {
+    width: 370px;
+    height: 40vh;
+    object-fit: cover;
+}
+
+.page3-inner-inner>h3 {
+    padding: 10px 20px;
+}
+
+.page3-inner-inner>p {
+    padding: 10px 20px;
+    color: white;
+}
+
+#page4 {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.page4-inner {
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#page4-inn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+#page4-inn {
+    padding: 25px;
+}
+
+.page4-inner>img {
+    width: 250px;
+    padding: 5px 5px;
+}
+
+#page5 {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#page5-in {
+    background-color: rgb(240, 192, 104);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+
+}
+
+.page5-inner {
+    padding: 10px 7%;
+    margin: 10px;
+}
+
+.page5-inner>h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.page5-inner>h3 {
+    color: white;
+}
+
+.page5-inner>button {
+    padding: 12px;
+    border-radius: 50px;
+    border: none;
+    width: 100px;
+}
+
+#page5-in1 {
+    padding: 50px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#page5-in1-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#page5-in1-inner>div {
+    padding: 20px 30px;
+}
+
+.page5-in1-inner1 {
+    font-size: 70px;
+    position: relative;
+    padding: 10px 50px;
+    color: orange;
+}
+
+.page5-in1-inner1>h3 {
+    font-size: 15px;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+}
+
+.page5-divs {
+    line-height: 1.5;
+    padding-left: 40px;
+}
+
+#footer {
+    display: flex;
+    width: 100%;
+    min-height: 30vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 192, 104);
+}
+
+.footer-inner>img {
+    width: 100px;
+}
+
+.footer-inner {
+    padding: 10px 6%;
+}
+
+.footer-inner>i {
+    font-size: 25px;
+    padding: 10px 12px;
+    border-radius: 50%;
+    background-color: orange;
+    margin: 2px;
+}

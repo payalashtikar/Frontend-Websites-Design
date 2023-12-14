@@ -1,0 +1,84 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geolocation Example</title>
+</head>
+
+<body>
+
+    <h1>Geolocation Example</h1>
+
+    <script>
+        // Check if the browser supports Geolocation
+        if (navigator.geolocation) {
+            // Get the current position
+            navigator.geolocation.getCurrentPosition(showPosition, showError);
+        } else {
+            alert("Geolocation is not supported by this browser.");
+        }
+
+        // Callback function to handle successful position retrieval
+        function showPosition(position) {
+            var latitude = position.coords.latitude;
+            var longitude = position.coords.longitude;
+
+            // Display the coordinates on the page
+            document.write("Latitude: " + latitude + "<br>");
+            document.write("Longitude: " + longitude);
+        }
+
+        // Callback function to handle errors
+        function showError(error) {
+            switch (error.code) {
+                case error.PERMISSION_DENIED:
+                    alert("User denied the request for Geolocation.");
+                    break;
+                case error.POSITION_UNAVAILABLE:
+                    alert("Location information is unavailable.");
+                    break;
+                case error.TIMEOUT:
+                    alert("The request to get user location timed out.");
+                    break;
+                case error.UNKNOWN_ERROR:
+                    alert("An unknown error occurred.");
+                    break;
+            }
+        }
+    </script>
+
+</body>
+
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Map Example</title>
+    <style>
+        /* Style the container div */
+        #map-container {
+            width: 100%;
+            height: 400px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Simple Map Example</h1>
+
+    <!-- Replace YOUR_API_KEY with your actual Google Maps API key -->
+    <div id="map-container">
+        <iframe width="100%" height="100%" frameborder="0" style="border:0"
+            src="https://www.google.com/maps/embed/v1/place?q=Your+Location&key=YOUR_API_KEY" allowfullscreen>
+        </iframe>
+    </div>
+
+</body>
+
+</html>
